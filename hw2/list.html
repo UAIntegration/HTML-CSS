@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>HW2- List</title>
+	<style type="text/css">
+		a {
+			text-decoration: none;
+		}
+		ol {
+			list-style: none;
+			counter-reset: li;
+		}
+		ol li:before {
+			counter-increment: li; 
+			content: counters(li,".") ". ";
+		}
+	</style>
+</head>
+<body>
+	<h1><a href="index.html">&#11013;</a> Списки</h1>
+	<p>Список согласно изображению:</p>
+	<ul>
+      <li>Пункт 1.</li>
+      <li>Пункт 2.
+      	<ul>
+            <li>Подпункт 2.1.</li>
+            <li>Подпункт 2.2.
+            	<ul>
+            		<li>Подпункт 2.2.1.</li>
+            		<li>Подпункт 2.2.2.</li>
+            	</ul>
+            </li>
+            <li>Подпункт 2.3.</li>
+		</ul>
+      </li>
+      <li>Пункт 3.</li>  
+    </ul>
+    <p>Список согласно текстовому заданию:</p>
+    <ol>
+      <li>Пункт 1.</li>
+      <li>Пункт 2.
+      	<ol>
+            <li>Подпункт 2.1.</li>
+            <li>Подпункт 2.2.
+            	<ol>
+            		<li>Подпункт 2.2.1.</li>
+            		<li>Подпункт 2.2.2.</li>
+            	</ol>
+            </li>
+            <li>Подпункт 2.3.</li>
+		</ol>
+      </li>
+      <li>Пункт 3.</li>  
+    </ol>
+</body>
+</html>
