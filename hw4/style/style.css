@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Myriad Pro;
+    src: url(MYRIADPRO-REGULAR.OTF);
+   }
+body {
+	width: 1280px;
+	margin: 0 auto;
+}
+h1 {
+	color: #000;
+	line-height: 1.2;
+	font-size: 80px;
+	margin-top: 61px;
+	margin-bottom: 45px;
+}
+.h1-color {
+	color: #4bcaff;
+}
+.top {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #35444f;
+}
+.upper-menu {
+	display: flex;
+	list-style: none;
+	height: 69px;
+	padding: 0;
+	margin: 0 auto;
+}
+.menu-item {
+	padding: 0 40px;
+	border-right: 1px solid #35444f;
+	border-left: 1px solid #35444f;
+	height: 69px;
+	display: block;
+	text-decoration: none;
+	line-height: 69px;
+	font-size: 24px;
+	color: #fff;
+}
+.menu-item:hover{
+	background-color: #222f3a;
+	border-right: 1px solid #818181;
+	border-left: 1px solid #818181;
+}
+.main-menu {
+	border: 1px solid #35444f;
+	list-style: none;
+	width: 342px;
+	margin-top: 51px;
+}
+.main-menu a {
+	display: inline-block;
+	background-color: #fff;
+	font-size: 30px;
+	line-height: 2.963;
+	color: rgb(72, 88, 99);
+	text-decoration: none;
+	width: 100%;
+	height: 81px;
+}
+.main-menu a:hover {
+	color: rgba(53, 68, 79, 255);
+	background-color: #dbdbdb;
+}
