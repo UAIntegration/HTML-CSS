@@ -5,10 +5,10 @@
 body {
 	width: 1280px;
 	margin: 0 auto;
+	font-family: Myriad Pro;
 }
 h1 {
 	color: #000;
-	line-height: 1.2;
 	font-size: 80px;
 	margin-top: 61px;
 	margin-bottom: 45px;
@@ -16,20 +16,20 @@ h1 {
 .h1-color {
 	color: #4bcaff;
 }
-.top {
+header {
 	width: 100%;
 	display: flex;
 	align-items: center;
 	background-color: #35444f;
 }
-.upper-menu {
+header ul {
 	display: flex;
 	list-style: none;
 	height: 69px;
 	padding: 0;
 	margin: 0 auto;
 }
-.menu-item {
+header a {
 	padding: 0 40px;
 	border-right: 1px solid #35444f;
 	border-left: 1px solid #35444f;
@@ -40,28 +40,105 @@ h1 {
 	font-size: 24px;
 	color: #fff;
 }
-.menu-item:hover{
+header a:hover{
 	background-color: #222f3a;
 	border-right: 1px solid #818181;
 	border-left: 1px solid #818181;
 }
-.main-menu {
+.main {
+	display: flex;
+}
+.main ul {
 	border: 1px solid #35444f;
 	list-style: none;
 	width: 342px;
+	height: 400px;
 	margin-top: 51px;
+	padding-left: 0px;
 }
-.main-menu a {
+.main a {
 	display: inline-block;
 	background-color: #fff;
 	font-size: 30px;
-	line-height: 2.963;
+	line-height: 80px;
 	color: rgb(72, 88, 99);
 	text-decoration: none;
-	width: 100%;
-	height: 81px;
+	width: 301px;
+	height: 80px;
+	padding-left: 41px;
+	transition: 0.1s linear;
 }
-.main-menu a:hover {
+.main a:hover {
 	color: rgba(53, 68, 79, 255);
 	background-color: #dbdbdb;
+}
+.main a:active, .main a:focus {
+	padding-left: 69px;
+	width: 273px;
+	color: rgba(53, 68, 79, 255);
+	background-color: #dbdbdb;
+}
+.content {
+	margin-left: auto;
+	margin-top: 51px;
+	width: 885px;
+}
+.picture:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+.pic-1 {
+    float: right;
+}
+.pic-2 {
+    float: right;
+    width: 588px;
+    margin-right: -100%;
+    padding-top: 75px;
+    position: relative;
+}
+.content p {
+	line-height: 1.26;
+	font-size: 18px;
+	color: rgb(44, 44, 44);
+	-moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+.content p:first-of-type {
+	margin: 50px 40px 30px 30px;
+}
+.content p:last-of-type {
+	margin: 0px 35px 51px 30px;
+}
+footer {
+	height: 69px;
+	background-color: #b4b7ba;
+	display: flex;
+	margin-bottom: 30px;
+}
+footer ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	line-height: 69px;
+	font-size: 28px;
+	padding-left: 44px;
+}
+footer a {
+	display: block;
+	text-decoration: none;
+	padding-right: 25px;
+	color: rgb(12, 25, 39);
+}
+footer a:hover {
+	text-decoration: underline;
+	color: #3181a6;
+}
+footer p {
+	margin: 0px 34px 0px auto;
+	line-height: 69px;
+	font-size: 24px;
+	color: rgb(1, 1, 1);
 }
