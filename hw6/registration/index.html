@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<title>РЕЄСТРАЦІЯ</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="main">
+		<div>
+			<form>
+				<h1>РЕЄСТРАЦІЯ</h1>
+				<p>
+					<label for="fname">Ім’я</label>
+					<input type="text" name="fname" id="fname" required />
+				</p>
+				<p>
+					<label for="email">Ел. пошта</label>
+					<input type="text" name="email" id="email" required />
+				</p>
+				<p>
+					<label for="address">Адреса</label>
+					<input type="text" name="address" id="address" required />
+				</p>
+				<p>
+					<label for="birth">Дата народження</label>
+					<select name="birth-day" id="birth-day" required>
+						<option value="" selected="selected" disabled hidden>День</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+					<select name="birth-month" id="birth-month" required>
+						<option value="" selected="selected" disabled hidden>Місяць</option>
+						<option value="Сiчень">Сiчень</option>
+						<option value="Лютий">Лютий</option>
+						<option value="Березень">Березень</option>
+						<option value="Квiтень">Квiтень</option>
+						<option value="Травень">Травень</option>
+						<option value="Червень">Червень</option>
+						<option value="Липень">Липень</option>
+						<option value="Серпень">Серпень</option>
+						<option value="Весерень">Весерень</option>
+						<option value="Жовтень">Жовтень</option>
+						<option value="Листопад">Листопад</option>
+						<option value="Грудень">Грудень</option>
+					</select>
+					<select name="birth-year" id="birth-year" required>
+						<option value="" selected="selected" disabled hidden>Рік</option>
+						<option value="2000">2000</option>
+						<option value="2001">2001</option>
+						<option value="2002">2002</option>
+						<option value="2003">2003</option>
+						<option value="2004">2004</option>
+						<option value="2005">2005</option>
+						<option value="2006">2006</option>
+						<option value="2007">2007</option>
+						<option value="2008">2008</option>
+						<option value="2009">2009</option>
+						<option value="2010">2010</option>
+					</select>
+				</p>
+				<p>
+					<label for="town">Місто</label>
+					<input type="text" name="town" id="town" required />
+				</p>
+				<p>
+					<label for="phone">Номер телефону</label>
+					<input type="tel" name="phone" id="phone" required pattern="[0-9]{6,12}"/>
+				</p>
+				<p>
+					<label for="password">Пароль</label>
+					<input type="password" name="password" id="password" required />
+				</p>
+
+				<p>
+					<button type="submit">Зареєструватися</button>
+				</p>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
