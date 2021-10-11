@@ -39,6 +39,8 @@ form input {
 	border: 2px solid #FF6D00;
 	box-sizing: border-box;
 	border-radius: 10px;
+	padding-left: 1rem;
+	font-size: 1.8rem;
 }
 form p {
 	font-size: 1.8rem;
@@ -52,7 +54,7 @@ form p label {
 select {
 	width: 32%;
 	height: 47px;
-	background: #FFFFFF;
+	background-color: #FFFFFF;
 	border: 2px solid #FF6D00;
 	box-sizing: border-box;
 	border-radius: 10px;
@@ -60,12 +62,12 @@ select {
 	font-size: 1.8rem;
 	background-image: url("polygon.png");
 	background-repeat: no-repeat;
-	background-position-x: 98%;
+	background-position-x: 97%;
 	background-position-y: 50%;
 	-moz-appearance:none; /* Firefox */
-    	-webkit-appearance:none; /* Safari and Chrome */
-    	appearance:none;
-    	padding-right: 1rem;
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    padding-right: 1rem;
 }
 select:first-of-type {
 	margin-right: 0.66rem;
@@ -86,4 +88,10 @@ button {
 	color: #fff;
 	font-size: 2.4rem;
 	font-weight: bold;
+	cursor: pointer;
+}
+button:active {
+	top: 0.1em;
+	left: 0.1em;
+	box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
 }
