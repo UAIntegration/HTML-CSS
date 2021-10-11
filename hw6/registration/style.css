@@ -60,10 +60,10 @@ select {
 	font-size: 1.8rem;
 }
 select:first-of-type {
-	margin-right: 0.67rem;
+	margin-right: 0.66rem;
 }
 select:last-of-type {
-	margin-left: 0.67rem;
+	margin-left: 0.66rem;
 }
 form p:last-of-type {
 	text-align: center;
